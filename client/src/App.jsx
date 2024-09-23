@@ -4,7 +4,7 @@ import { gql, useQuery } from "@apollo/client";
 const query = gql`
 query GetAllTodos {
   getTodos {
-  id
+    id
     title
     completed
     user {
